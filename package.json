@@ -1,0 +1,21 @@
+{
+  "name": "cardbot",
+  "version": "1.0.0",
+  "description": "A bot that trades cards for keys!",
+  "main": "server.js",
+  "author": "Baterka",
+  "dependencies": {
+    "body-parser": "latest",
+    "express": "^4.16.2",
+    "forever-monitor": "^1.7.1",
+    "jsonfile": "^4.0.0",
+    "lodash": "^4.15.0",
+    "mongoose": "^5.0.3",
+    "path": "^0.12.7",
+    "request": "*",
+    "steam-totp": "^1.4.0",
+    "steam-tradeoffer-manager": "^2.5.0",
+    "steam-user": "^3.15.0",
+    "steamcommunity": "^3.30.0"
+  }
+}

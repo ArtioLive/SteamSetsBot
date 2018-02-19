@@ -16,7 +16,7 @@ Install the dependencies:
 $ npm install
 ```
 
-Rename [`config.example.js`](https://github.com/Baterka/SteamGameKeysBot/blob/master/config/config.js) file to `config.js` and fill all required data.
+Rename [`config.example.js`](https://github.com/Baterka/SteamSetsBot/blob/master/SETTINGS/config.example.js) file to `config.js` and fill all required data.
 
 Start app:
 

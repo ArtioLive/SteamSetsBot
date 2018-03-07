@@ -1598,6 +1598,7 @@ client.on("friendMessage", (SENDER, MSG) => {
                                         }
                                         if (amountTheirGems < (n * config.CARDS.GEMS.buy_one_set_for)) {
                                             client.chatMessage(SENDER, "You do not have enough Gems.");
+                                            return;
                                         } else {
                                             sortSetsByAmount(botSets, (DATA) => {
                                                 let setsSent = {};
@@ -1657,10 +1658,10 @@ client.on("friendMessage", (SENDER, MSG) => {
                             }
                         });
                     } else {
-                        client.chatMessage(SENDER, "Please try a lower amount of keys");
+                        client.chatMessage(SENDER, "Please try a lower amount of gems");
                     }
                 } else {
-                    client.chatMessage(SENDER, "Please provide a valid amount of keys.");
+                    client.chatMessage(SENDER, "Please provide a valid amount of gems.");
                 }
             } else {
                 client.chatMessage(SENDER, "Please try again later.");
@@ -3358,7 +3359,7 @@ client.on("friendMessage", (SENDER, MSG) => {
                         client.chatMessage(SENDER, "Please try a lower amount of sets.");
                     }
                 } else {
-                    client.chatMessage(SENDER, "Please enter a valid amount of setss!");
+                    client.chatMessage(SENDER, "Please enter a valid amount of sets!");
                 }
             } else {
                 client.chatMessage(SENDER, "Please try again later.");

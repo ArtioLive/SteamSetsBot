@@ -1,5 +1,8 @@
 # SteamSetsBot
 
+## This project was private and paid. I made it public and it means it will most likely never be updated. Enjoy!
+### Project is unmaintained for many months, make revision before using!
+
 Steam card sets trade bot powered by [DoctorMcKay's](https://github.com/DoctorMcKay) NodeJS tools for Steam.
 
 ### Powered by

@@ -32,6 +32,3 @@ $ node server.js
 ```
 
 App running as forever service.
-
-### Todos
- - Complete rewrite
